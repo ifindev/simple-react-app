@@ -15,7 +15,9 @@ function Tweet({name, message}) {
             <div className="tweet-message">
                 <p>{message}</p>
             </div>
-            <h3 className={isLike ? "liked" : ""} onClick={changeColor}>Like</h3>
+            <div className="like-button">
+                <h3 className={isLike ? "liked" : ""} onClick={changeColor}>Like</h3>
+            </div>
         </div>
     );
 }

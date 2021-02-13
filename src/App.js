@@ -44,6 +44,12 @@ function App() {
 				<Tweet name = "Lorem Ipsum" message="I am the most usable text in the world. You cannot escape me!"/>
 				<Tweet name = "Vercel Media" message="try vercel man!"/>
 				<Tweet name = "Garyvee" message="Do shit before you going shit!"/>
+				<Tweet name = "Arifin" message="React is awesome!"/>
+				<Tweet name = "Traversy Media" message="New tutorial is released! Go checkout my youtube."/>
+				<Tweet name = "Dev Ed" message="Thanks for watching my video"/>
+				<Tweet name = "Lorem Ipsum" message="I am the most usable text in the world. You cannot escape me!"/>
+				<Tweet name = "Vercel Media" message="try vercel man!"/>
+				<Tweet name = "Garyvee" message="Do shit before you going shit!"/>
 
 				{users.map(user => (
 					<Tweet name={user.name} message={user.message}/>
