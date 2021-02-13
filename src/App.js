@@ -10,7 +10,8 @@ function App() {
 	const [users, setUser] = useState([
 		{name:'Ifindev', message:"Hello there!"},
 		{name:'Luffy', message:"I am Awesome!"},
-		{name:'Zoro', message:"Meet my sword!!"}
+		{name:'Zoro', message:"Meet my sword!!"},
+		{name:'Robin', message:"I love poneglyphs!"}
 	]);
 
 	const increment = () => {
@@ -40,13 +41,10 @@ function App() {
 				<Tweet name = "Arifin" message="React is awesome!"/>
 				<Tweet name = "Traversy Media" message="New tutorial is released! Go checkout my youtube."/>
 				<Tweet name = "Dev Ed" message="Thanks for watching my video"/>
-			</div>
-			<div className="group-item">
 				<Tweet name = "Lorem Ipsum" message="I am the most usable text in the world. You cannot escape me!"/>
 				<Tweet name = "Vercel Media" message="try vercel man!"/>
 				<Tweet name = "Garyvee" message="Do shit before you going shit!"/>
-			</div>
-			<div className="group-item">
+
 				{users.map(user => (
 					<Tweet name={user.name} message={user.message}/>
 				))}

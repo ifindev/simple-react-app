@@ -39,7 +39,7 @@ button:hover{
 
 .tweet {
   height: 10rem;
-  width: 10rem;
+  width: 9rem;
   padding: 15px 10px;
   margin: 10px 5px;
   background: #fff;
@@ -67,4 +67,8 @@ button:hover{
 .red {
   color: red;
   font-size: 2.5rem;
+}
+
+.liked {
+  color: red;
 }
